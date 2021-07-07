@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #839b97;
+    max-width: 100%;
+    overflow-x: hidden;
+    cursor: crosshair;
+}
+
+/* Style the header */
+header {
+    background-color: #34626c;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #839b97;
+    padding: 20px;
+    word-wrap: normal;
+    text-align: left;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding-left: 5%;
+}
+
+/* Give some space between list elements*/
+nav ul li {
+    padding-bottom: 3%;
+}
+
+/* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #cfd3ce;
+    padding: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #c6b497;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+/* Style paragraphs*/
+p {
+    font: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: normal;
+}
+
+/* Style links*/
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+/* Styling tags*/
+#date {
+    font-style: oblique;
+    font-weight: normal;
+    font-size: medium;
+}
+
+#navig {
+    float: left;
+    position: relative;
+}
+
+#totop {
+    position: relative;
+    bottom: 2%;
+    text-align: right;
+}
+
+.navs {
+    width: 15%;
+    height: 100vh
+}
+    
+
+
+@media only screen and (max-width:900px) {
+    .navs {
+        width: 100%;
+        height: auto;
+        word-wrap: normal;
+        float: none;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+}
+
+
