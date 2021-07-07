@@ -15,7 +15,6 @@ header {
     background-color: #34626c;
     padding: 30px;
     text-align: center;
-    font-size: 35px;
     color: white;
 }
 
@@ -117,6 +116,10 @@ a:link {
     text-align: right;
 }
 
+.heads {
+    font-size: 35px;
+}
+
 .navs {
     width: 15%;
     height: 100vh
@@ -125,6 +128,10 @@ a:link {
 
 
 @media only screen and (max-width:900px) {
+    .heads {
+        font-size: 4vw;
+    }
+
     .navs {
         width: 100%;
         height: auto;
