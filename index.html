@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="Project Website of Kyriacos Rouvas">
 
-    <!---Base link-->
+    <!---change the link afterwards-->
     <base href="https://krouvas.github.io/" target="_blank">
 
     <link rel="stylesheet" href="styles.css">
@@ -19,7 +19,17 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <title>Personal Projects</title>
-        
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWM22W421H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-KWM22W421H');
+    </script>
+    
 </head>
 
 <body>
@@ -116,6 +126,51 @@
             </div>
         </article>
     </section>
+
+    <section class='main'>
+        <article>
+            <h1 id='pr1'>Tesla Radio<small id='date'>	&nbsp; 	&nbsp; - 05/2016</small</h1>
+            <p>
+                This Tesla Radio was made by adapting components provided from a radio building kit. The schematics for it were found online and luckily all the required components except one were found in the radio building kit. The missing component was a 50 kΩ resistor which was constructed using a strip of paper that was vigorously rubbed with a pencil lead to produce a semiconducting line and tuned depending on the separation of the 2 paperclip electrodes. This homemade resistor was tightly wound with electrical tape and can be seen along with the rest of the radio in the image below. Additionally, signal recordings of a thunderstorm, a phone call and a piezo igniter sparking are included.
+            </p>
+
+            <img src="articles/TeslaRadio/Tesla_Radio_pic.jpg" alt="Tesla Radio pic" style="max-width:100%;height:auto;">
+            
+            <details>
+                <summary>Tesla Radio recordings</summary>
+
+                <div>
+                    <h4>Lightning Storm recording:</h4>
+                    &nbsp; Lightning is captured as whistling sounds<br>
+                    <audio controls>
+                        <source src="articles/TeslaRadio/lightning storm3.ogg" type="audio/ogg">
+                        <source src="articles/TeslaRadio/lightning storm3.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                <div>
+                    <h4>Phonecall recording:</h4>
+                    <audio controls>
+                        <source src="articles/TeslaRadio/phonecall.ogg" type="audio/ogg">
+                        <source src="articles/TeslaRadio/phinecall.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                <div>
+                    <h4>Piezoelectric ingiter sparking recording:</h4>
+                    <audio controls>
+                        <source src="articles/TeslaRadio/piezo.ogg" type="audio/ogg">
+                        <source src="articles/TeslaRadio/piezo.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </details>
+
+        </article>
+    </section>
+
 
     <footer>
         <p>
